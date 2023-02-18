@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(143, 5, 5, 0.5)), url(images/it1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+}
+ul{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    list-style: none;
+    
+
+}
+ul li{
+    padding: 2px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid rgb(239, 233, 233)transparent;
+    background: rebeccapurple;
+    border-radius: 2px;
+    transition: 0.6s ease-in-out;
+}
+ul li a:hover{
+    background-color: antiquewhite;
+    color: black;
+    /* font-weight: bolder; */
+    transition: 0.2 ease;
+}
+.logo{
+    float: left;
+    width: 150px;
+    height: auto;
+    border: 2px solid red transparent;
+    background-color: aliceblue;
+    border-radius: 2px 20px;
+    position: relative;
+    top: 10px;
+    animation-name: dissolve;
+}
+.logo h1{
+    position: relative;
+    left: 15px;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: rgb(8, 1, 1);
+}
+.logo h1:hover{
+    background-color: black;
+    color: rgb(191, 186, 38);
+    border-radius: 0px 20px;
+}
+.logo:hover h1{
+   
+    color: rgb(81, 18, 18);
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul li.active a{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+color: white;
+font-size: 50px;
+
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.btn a{
+    text-decoration: none;
+    padding: 2px 20px;
+    font-size: 30px;
+    border-radius: 2px 20px;
+    font-family:'Times New Roman', Times, serif;
+    transition: 0.4s ease;
+    
+    
+}
+.btn a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* section Start  */
+section{
+    background-image: linear-gradient(rgba(202, 193, 193, 0.6),rgba(155, 139, 139, 0.6));
+    height: 100vh;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#subsection2{
+    position: absolute;
+    top: 150%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+#subsection2 h1{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 11%;
+}
+
+form{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+   border-radius: 2px 3px;
+   padding: 20px;
+   box-shadow: 2px 5px 4px lightgray;
+   border-radius: 2px 20px;
+}
+form .input1{
+   position: absolute;
+   top: 40%;
+   left: 80px;
+
+}
+form .input2{
+    position: absolute;
+    top: 60%;
+    left: 80px;
+ 
+ }
+ #subsection1{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 150%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background-color: aquamarine;
+    box-shadow: 2px 3px 5px lightgray;
+    border-radius: 2px 20px;
+ }
+ @media (prefers-reduced-motion) {
+    .logo h1 a {
+      animation-name: dissolve;
+    }
+  }
+
+  
+  
